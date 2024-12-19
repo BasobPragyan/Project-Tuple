@@ -1,0 +1,6 @@
+tup1=(4,3,2,2,-1,18)
+print("First tuple is : ",tup1)
+tup2=(2,4,8,8,3,2,9)
+print("Second tuple is :",tup2)
+res = tuple(tup1 * tup2 for tup1, tup2 in zip(tup1,tup2))
+print(res)
